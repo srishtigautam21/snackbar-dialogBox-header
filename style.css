@@ -1,0 +1,29 @@
+:root{
+    --primary-color:#22c55e;
+    --secondary-color:#bbf7d0;
+    --notification-color:#f97316;
+    --offgreen:#f0fdf4;
+    --darkerofseconadary:#86efac;
+
+}
+.section-og{
+    background-color: var(--offgreen);
+    height:20vh;
+
+}
+.fixed-position{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    background-color: #1f2937;
+    color:#d1d5db;
+    max-width:23rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px gray;
+}  
+p{
+    color:#9333ea;
+    padding:0px 20px 0px 25px;
+
+}
