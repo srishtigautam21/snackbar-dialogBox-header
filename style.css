@@ -8,7 +8,7 @@
 }
 .section-og{
     background-color: var(--offgreen);
-    height:20vh;
+    height:25vh;
 
 }
 .fixed-position{
@@ -28,8 +28,68 @@ p{
 
 }
 .header{
+    box-sizing: border-box;
     background-color: var(--primary-color);
     color:white;
-    padding:10px 0px;
+    padding:8px 0px;
+    border-radius: 0px;
     box-shadow:none;
+    gap:2rem;
+    max-width: 30rem;
+    
+  
+}
+.header p{
+    font-size:larger;
+    font-weight: bolder;
+    color: white;
+    margin:0;
+    margin-right: 2rem;
+
+}
+.fa-bookmark{
+    margin-left: 3rem;
+    
+}
+.fa-download{
+    margin-left: 5rem;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dialog-box{
+    background-color: white;
+    padding:10px;
+    border-radius: 5px;
+    width:13rem;
+    border:0px solid black;
+    box-shadow: 3px 3px 17px grey;
+   
+}
+.button-div{
+    display:flex;
+    justify-content: flex-end;
+    gap:10px;
+}
+button{
+    border:0px;
+    font-weight: bold;
+    background-color: transparent;
+    color:var(--primary-color);
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.dialog-box p{
+    color:grey;
+    margin:5px 0px 30px 0px;
+    padding-left: 0px;
+    
+}
+.dialog-box h2{
+    margin-bottom: 0px;
 }
