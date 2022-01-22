@@ -45,15 +45,14 @@ p{
     color: white;
     margin:0;
     margin-right: 2rem;
-
 }
 .fa-bookmark{
     margin-left: 3rem;
-    
 }
 .fa-download{
     margin-left: 5rem;
 }
+/* dialog box */
 .container{
     display:flex;
     justify-content: center;
@@ -90,6 +89,11 @@ button:hover{
     padding-left: 0px;
     
 }
-.dialog-box h2{
+.dialog-header{
     margin-bottom: 0px;
+}
+.center-positioning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
