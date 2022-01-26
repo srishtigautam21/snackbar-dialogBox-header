@@ -5,9 +5,13 @@
     --offgreen:#f0fdf4;
     --darkerofseconadary:#86efac;
 }
+body{
+    margin: 50px 50px;
+}
 .section-og{
     background-color: var(--offgreen);
-    height:25vh;
+    height:35vh;
+    padding:30px 0px 0px 30px;
 }
 .fixed-position{
     display:flex;
@@ -15,7 +19,8 @@
     justify-content:center;
     align-items: center;
     background-color: #1f2937;
-    color:#d1d5db;
+    /* color:#d1d5db; */
+    color:white;
     max-width:23rem;
     border-radius: 5px;
     box-shadow: 4px 4px 5px #cbd5e1;
@@ -63,7 +68,7 @@ p{
     border-radius: 5px;
     width:13rem;
     border:0px solid black;
-    box-shadow: 3px 3px 17px grey;
+    box-shadow: 2px 0px 3px grey;
    
 }
 .button-div{
